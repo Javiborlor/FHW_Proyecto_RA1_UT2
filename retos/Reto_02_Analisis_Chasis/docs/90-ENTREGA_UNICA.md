@@ -17,9 +17,10 @@
 
 ## Diagrama
 
-![](assets/20251108_174928_Gaming.png)
+![](assets/20251108_175607_Gaming.png)
 
-![](assets/20251108_174934_Workstation.png)
+
+![](assets/20251108_175619_Workstation.png)
 
 ## Impacto del tamaño
 
