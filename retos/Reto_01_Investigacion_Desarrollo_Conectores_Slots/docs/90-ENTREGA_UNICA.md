@@ -180,23 +180,196 @@ Objetivo del reto: **identificar** y **explicar** conectores/slots **actuales** 
 
 ## Fotos
 
-
 ![](assets/20251108_155545_M.2.jpg)
 
 <a id="4-slots-de-expansion"></a>
 
 ## 4. Slots de expansión
 
-(Pega aquí las fichas finales de esta sección)
+# Slot: M.2(Wi-Fi/BT)
+
+**Descripción breve:** Ranura compacta para módulos inalámbricos internos como Wi-Fi y Bluetooth.
+**Pines/Carriles/Voltajes/Velocidad:** 67 pines · PCIe x1 o USB 2.0/3.0 según módulo
+**Uso principal:** Tarjetas de red Wi-Fi y Bluetooth internas en portátiles y PCs de sobremesa.
+**Compatibilidad actual:** Alta en placas modernas con ranura M.2 Key-E
+
+## Identificación física
+
+- Ranura corta, estrecha (22 mm de ancho) con “notch” de clave E; cerca del borde de la placa base.
+
+## Notas técnicas
+
+- M.2 Key-E soporta señal PCIe x1 y/o USB según el módulo; no es compatible con SSD NVMe (Key-M) directamente.
+
+## Fotos
+
+![](assets/20251108_162336_M.2.jpg)
+
+# Slot: PCI Express (x1/x4/x8/x16; Gen3/4/5)
+
+**Descripción breve:** Ranura de expansión versátil para GPUs, tarjetas de red, SSD NVMe en adaptadores y otros dispositivos.
+**Pines/Carriles/Voltajes/Velocidad:** x1/x4/x8/x16 carriles · Gen3 8 GT/s · Gen4 16 GT/s · Gen5 32 GT/s
+**Uso principal:** Tarjetas gráficas, aceleradoras, tarjetas de expansión y almacenamiento NVMe vía adaptador.
+**Compatibilidad actual:** Muy alta en placas modernas; depende del número de carriles soportados por CPU/Chipset.
+
+## Identificación física
+
+- Ranura de longitud variable según carriles (x1 corta, x16 larga) con pestaña de retención; color variable por fabricante.
+
+## Notas técnicas
+
+- Ancho de banda efectivo depende de la generación y el número de carriles disponibles; retrocompatible con generaciones y tamaños menores.
+
+## Fotos
+
+![](assets/20251108_162420_PCI_Express.jpg)
 
 <a id="5-conectores-externos"></a>
 
 ## 5. Conectores externos
 
-(Pega aquí las fichas finales de esta sección)
+# Conector externo: DisplayPort 1.4/2.x
+
+**Descripción breve:** Interfaz digital para transmitir vídeo y audio de alta definición, soporte para múltiples monitores y resoluciones hasta 8K.
+**Pines/Carriles/Voltajes/Velocidad:** 20 pines · hasta 32.4 Gbps (DP 1.4) / 80 Gbps (DP 2.0) · soporte para HDR, tasas de refresco altas y color profundo.
+**Uso principal:** Conexión de monitores, estaciones de trabajo, pantallas profesionales y tarjetas gráficas.
+**Compatibilidad actual:** Muy alta en equipos modernos; retrocompatible con versiones anteriores mediante adaptadores pasivos o activos.
+
+## Identificación física
+
+- Conector rectangular con un lado biselado; clip de retención opcional. Color negro/gris según fabricante.
+
+## Notas técnicas
+
+- DP 1.4 soporta HBR3 (High Bit Rate 3) para resoluciones hasta 8K@60Hz o 4K@120Hz.
+- DP 2.x usa modo UHBR (Ultra High Bit Rate) para hasta 80 Gbps, soporte Display Stream Compression (DSC 1.2a) y multistream para múltiples monitores.
+- Compatible con adaptadores pasivos HDMI, DVI y VGA con ciertas limitaciones de ancho de banda.
+
+## Fotos
+
+![](assets/20251108_165052_DisplayPort.jpg)
+
+# Conector externo: HDMI 2.1
+
+**Descripción breve:** Interfaz digital para transmitir audio y vídeo de alta definición, incluyendo 4K/8K y HDR.
+**Pines/Carriles/Voltajes/Velocidad:** 19 pines · hasta 48 Gbps (modo FRL) · soporta resoluciones 4K@120Hz, 8K@60Hz.
+**Uso principal:** Conexión de monitores, televisores, proyectores y consolas de última generación.
+**Compatibilidad actual:** Muy alta en dispositivos recientes; HDMI 2.1 retrocompatible con 2.0 y 1.4.
+
+## Identificación física
+
+- Conector rectangular de 19 pines, ligeramente trapezoidal; color negro/gris según fabricante.
+
+## Notas técnicas
+
+- HDMI 2.1 introduce modos de mayor ancho de banda (FRL) para soportar 8K y tasas de refresco altas.
+- Compatible con eARC (canal de retorno de audio mejorado) y Dynamic HDR.
+
+## Fotos
+
+![](assets/20251108_165101_HDMI_2.1.jpg)
+
+# Conector externo: RJ‑45 (Ethernet 1G/2.5G/10G)
+
+**Descripción breve:** Conector modular para redes Ethernet de diferentes velocidades.
+**Pines/Carriles/Voltajes/Velocidad:** 8 pines (4 pares) · 1 Gbps / 2.5 Gbps / 10 Gbps según cable y equipo · alimentación opcional PoE (Power over Ethernet) 15–90 W según estándar.
+**Uso principal:** Conexión a redes locales (LAN), routers, switches, PCs, servidores.
+**Compatibilidad actual:** Muy alta; estandarizado y retrocompatible con versiones anteriores (10/100/1000 Mbps).
+
+## Identificación física
+
+- Conector rectangular con clip de retención; 8 contactos dorados alineados en una fila.
+- Cables típicos: Cat5e, Cat6, Cat6a, Cat7, Cat8 según velocidad requerida.
+
+## Notas técnicas
+
+- PoE permite alimentar dispositivos como cámaras IP o puntos de acceso mediante el mismo cable.
+- Longitud máxima de cable para 10 GbE sobre cobre: 55–100 m según categoría del cable.
+- Retrocompatible: un puerto 10 GbE funciona con cables 1 GbE o 2.5 GbE si se negocia automáticamente la velocidad.
+
+## Fotos
+
+![](assets/20251108_165109_RJ_45.jpg)
+
+# Conector externo: USB‑A (USB 2.0/3.x)
+
+**Descripción breve:** Conector rectangular tipo “amo” y “hembra” ampliamente usado para periféricos y cables de datos/energía.
+**Pines/Carriles/Voltajes/Velocidad:** USB 2.0: 4 pines · hasta 480 Mbps · estándar; USB 3.x: 9 pines (o más según versión) · 5 Gbps (USB 3.0) o más en 3.1/3.2.
+**Uso principal:** Conexión de periféricos (ratón, teclado, pendrive, discos externos) y carga de dispositivos.
+**Compatibilidad actual:** Muy alta; casi todas las placas tienen al menos puertos USB‑A; versiones 3.x en muchos PCs modernos.
+
+## Identificación física
+
+- Conector tipo A: forma rectangular, normalmente con lengüeta plástica de color negro (USB 2.0) o azul/turquesa (USB 3.x) según fabricante.
+
+## Notas técnicas
+
+- Aunque el conector USB‑A tenga forma idéntica en USB 2.0 y USB 3.x, la velocidad real dependerá de la versión del estándar y del equipo al que se conecte.
+- USB 3.x añade más líneas de datos (más pines) y soporte de lectura/escritura simultáneas (“full‑duplex”) comparado con USB 2.0 que era half‑duplex.
+
+## Fotos
+
+![](assets/20251108_165119_USB_A.jpg)
+
+# Conector externo: USB‑B (USB 2.0/3.x)
+
+**Descripción breve:** Conector cuadrado (tipo B) usado principalmente en impresoras, escáneres y dispositivos periféricos que reciben alimentación.
+**Pines/Carriles/Voltajes/Velocidad:** USB 2.0: 4 pines · hasta 480 Mbps · estándar; USB 3.x: 9 pines · hasta 5–10 Gbps según versión.
+**Uso principal:** Conectar periféricos a un host, transferencia de datos y alimentación limitada.
+**Compatibilidad actual:** Alta en equipos con impresoras/escáneres y algunos discos externos.
+
+## Identificación física
+
+- Conector cuadrado con esquinas biseladas; USB 3.x suele tener parte extra para los pines adicionales y color azul o negro.
+
+## Notas técnicas
+
+- La forma física impide conectar un USB‑B en un puerto USB‑A.
+- USB 3.x añade pines extra para comunicación bidireccional simultánea y mayor velocidad de transferencia.
+
+## Fotos
+
+![](assets/20251108_165127_USB_B.jpg)
+
+# Conector externo: USB‑C (USB4/PD)
+
+**Descripción breve:** Conector reversible para datos, vídeo y alimentación (USB Power Delivery).
+**Pines/Carriles/Voltajes/Velocidad:** 24 pines · hasta 40 Gbps (USB4) · PD hasta 240 W (según perfil)
+**Uso principal:** Carga y conexión de periféricos/monitores/docks.
+**Compatibilidad actual:** Alta (ojo: no todo USB‑C soporta USB4, TB o PD completos).
+
+## Identificación física
+
+- Conector ovalado y simétrico; símbolos frecuentes: rayo (Thunderbolt), “SS” (SuperSpeed) o “40G”/“240W” en cables.
+
+## Notas técnicas
+
+- Aunque USB‑C es el tipo de conector, **USB4** es el estándar de datos que puede usar ese conector; muchos puertos USB‑C no alcanzan 40 Gbps ni los 240 W de PD.
+- Para alcanzar los 40 Gbps o 240 W es necesario que tanto el puerto, el host/dispositivo y el cable estén certificados para USB4 y PD «Extended Power Range».
+
+## Fotos
+
+![](assets/20251108_165136_USB_C.jpg)
 
 <a id="6-bibliografia"></a>
 
 ## 6. Bibliografía
 
-(Pega aquí la bibliografía consolidada)
+[https://pinoutguide.com](https://pinoutguide.com)
+[https://www.lifewire.com](https://www.lifewire.com)
+[https://www.moddiy.com](https://www.moddiy.com)
+[https://help.corsair.com](https://help.corsair.com)
+[https://www.ultralibrarian.com](https://www.ultralibrarian.com)
+[https://pcisig.com](https://pcisig.com)
+[https://www.snia.org](https://www.snia.org)
+[https://en.wikipedia.org](https://en.wikipedia.org)
+[https://www.cablematters.com](https://www.cablematters.com)
+[https://www.hp.com](https://www.hp.com)
+[https://www.usb.org](https://www.usb.org)
+[https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
+[https://www.xataka.com](https://www.xataka.com)
+[https://www.anker.com](https://www.anker.com)
+[https://www.techtarget.com](https://www.techtarget.com)
+[https://www.cablinginstall.com](https://www.cablinginstall.com)
+[https://www.tek.com](https://www.tek.com)
+[https://vesa.org](https://vesa.org)
