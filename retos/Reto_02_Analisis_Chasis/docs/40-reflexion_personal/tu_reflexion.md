@@ -1,3 +1,3 @@
 # Reflexión personal
 
-(≥100 palabras)
+El chasis del PC afecta mucho a la experiencia del usuario. Por ejemplo, si el material es resistente como el acero SECC y la torre es grande, hay menos vibraciones y el ruido del sistema se nota menos. También ayuda que haya suficiente espacio para ventiladores y radiadores, así se mantiene la temperatura baja cuando se usa el PC para juegos o trabajos pesados como IA o simulaciones. El acceso a los puertos frontales y superiores es importante porque hace más fácil conectar pendrives, auriculares o discos externos sin tener que mover la torre. Además, la estética también cuenta: un chasis con panel de vidrio y un buen acabado hace que el PC se vea más profesional y cuidado. En general, un buen chasis combina funcionalidad, comodidad y apariencia, y marca mucho la diferencia cuando se usa a diario.
